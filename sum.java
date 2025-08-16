@@ -14,5 +14,6 @@ public class sum {
         int b= sc.nextInt();
         sum s= new sum();
         s.cal_sum(a, b);
+        sc.close();
     }
 }

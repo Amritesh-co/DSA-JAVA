@@ -15,5 +15,6 @@ public class binomial {
         System.out.println("the Value of R of nCr: ");
         int r = sc.nextInt();
         System.out.println(n+"C"+r+"="+(b.fact(n)/(b.fact(r)*b.fact(n-r))));
+        sc.close();
     }
 }

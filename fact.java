@@ -12,5 +12,6 @@ public class fact {
         int num= sc.nextInt();
         fact f= new fact();
         f.fact1(num);
+        sc.close();
     }
 }

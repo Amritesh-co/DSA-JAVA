@@ -1,4 +1,3 @@
-import java.math.*;
 import java.util.*;
 public class prime {
     boolean isPrime(int num){
@@ -15,5 +14,6 @@ public class prime {
         while(range>1){
         System.out.println("is prime "+range +": "+pr.isPrime(range--));
     }
+    sc.close();
     }
 }

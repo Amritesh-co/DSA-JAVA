@@ -13,5 +13,6 @@ public class pair {
         int arr[]={10,12,14,16,18,21,45};
         pair p= new pair();
         p.pairs(arr);
+        sc.close();
     }
 }

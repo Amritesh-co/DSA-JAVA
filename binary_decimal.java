@@ -19,5 +19,6 @@ public class binary_decimal {
       String str=sc.nextLine();
       binary_decimal bi= new binary_decimal();
       bi.bin(str); 
+      sc.close();
     }
 }

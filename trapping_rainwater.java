@@ -1,4 +1,3 @@
-import java.util.*;
 public class trapping_rainwater {
     int[] leftMax(int arr[]){
         int[]left_max=new int[arr.length];

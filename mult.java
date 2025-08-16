@@ -11,5 +11,6 @@ public class mult {
         int b = sc.nextInt();
         mult m= new mult();
         m.muiltiply(a, b);
+        sc.close();
     }
 }
